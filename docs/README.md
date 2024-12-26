@@ -17,8 +17,8 @@
     <p>Use the navigation menu on the left to explore the sections. Start with:</p>
     <ul>
       <li><a href="#/registration">Patient Registration</a></li>
-      <li><a href="#/ordering">Adding a Test</a></li>
-      <li><a href="#/examples">Examples</a></li>
+      <li><a href="#/ordering">Adding a Test (Org Pay)</a></li>
+      <li><a href="#/orderingins">Adding a Test (Insurance)</a></li>
     </ul>
   </div>
 </div>
@@ -31,8 +31,8 @@
         subtitle: 'Your guide to mastering GLS with clear examples and explanations.',
         features: [
           'Learn how to register a patient and order a test.',
-          'Check for Validaty in LabDAQ and complete the order',
-          'Registering an Organization and Provider',
+          'Learn how to book a Home Collection appoinment',
+          'Aquiring Results',
         ],
       };
     },
