@@ -30,9 +30,9 @@
         title: 'Welcome to Genics Laboratory System (GLS) Documentation',
         subtitle: 'Your guide to mastering GLS with clear examples and explanations.',
         features: [
-          'Learn how to register a patient and order a test.',
-          'Learn how to book a Home Collection appoinment',
-          'Aquiring Results',
+          'Learn how to register a patient',
+          'Learn how to order a test',
+          'Retrieve Results',
         ],
       };
     },
