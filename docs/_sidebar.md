@@ -1,6 +1,6 @@
 * [Home](/)
 
-* [Introduction into GLS](intro.md)
+* [Welcome to GLS](intro.md)
 
 * Ordering in GLS
 
