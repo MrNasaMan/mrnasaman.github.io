@@ -36,7 +36,7 @@
     font-family: Arial, sans-serif;
     margin: 20px auto;
     padding: 20px;
-    max-width: 800px;
+    max-width: 1600px;
     border: 1px solid #ccc;
     border-radius: 10px;
     background-color: #fdfdfd;
@@ -70,7 +70,7 @@
 
   .video-frame {
     width: 100%;
-    height: 400px;
+    height: 800px;
     border: none;
     border-radius: 10px;
   }

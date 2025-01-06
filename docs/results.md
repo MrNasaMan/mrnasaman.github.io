@@ -24,7 +24,7 @@
       return {
         title: 'Retrieving Results!',
         description: 'Explore this example with an embedded YouTube video.',
-        videoSrc: 'https://www.youtube.com/embed/Me5adJmz-lM?si=Vr8ECaMFc7grErLX?autoplay=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=1', // Replace with your video URL
+        videoSrc: 'https://www.youtube.com/embed/Me5adJmz-lM?si=Vr8ECaMFc7grErLX?autoplay=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=1&vq=hd1080', // Replace with your video URL
       };
     },
   };
