@@ -1,15 +1,19 @@
-
 <div id="documentation" class="doc-container">
   <div class="section">
     <h2>{{ title }}</h2>
     <p>{{ description }}</p>
-    <img :src="imageSrc" :alt="imageAlt" class="doc-image" />
   </div>
 
-  <div class="interactive-section">
-    <h3>Interactive Example</h3>
-    <p>{{ interactiveText }}</p>
-    <button class="btn" @click="toggleText">{{ buttonText }}</button>
+  <div class="video-section">
+    <h3></h3>
+    <iframe 
+  :src="videoSrc" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen
+  class="video-frame">
+</iframe>
   </div>
 </div>
 
@@ -17,22 +21,10 @@
   const docApp = {
     data() {
       return {
-        title: 'Welcome to Vue Documentation!',
-        description: 'This is a simple Vue template for showcasing documentation with text and images.',
-        imageSrc: 'https://via.placeholder.com/400x200.png?text=Docsify+Image',
-        imageAlt: 'Placeholder Image',
-        interactiveText: 'Click the button below to toggle this text!',
-        buttonText: 'Toggle Text',
-        isTextVisible: true,
+        title: 'Adding a test with Insurance!',
+        description: 'Explore this example with an embedded YouTube video.',
+        videoSrc: 'https://www.youtube.com/embed/1SBxGSHjgP4?si=aoWI2rFfUkJnuc14?autoplay=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=1', // Replace with your video URL
       };
-    },
-    methods: {
-      toggleText() {
-        this.isTextVisible = !this.isTextVisible;
-        this.interactiveText = this.isTextVisible
-          ? 'Click the button below to toggle this text!'
-          : 'You toggled the text!';
-      },
     },
   };
 
@@ -56,7 +48,7 @@
   }
 
   .section h2 {
-    color: #42b983;
+    color: #007bff;
     font-size: 2rem;
   }
 
@@ -65,29 +57,21 @@
     color: #555;
   }
 
-  .doc-image {
-    max-width: 100%;
-    height: auto;
-    margin: 15px 0;
-    border-radius: 10px;
-  }
-
-  .interactive-section {
+  .video-section {
     text-align: center;
     margin-top: 20px;
   }
 
-  .btn {
-    padding: 10px 20px;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #42b983;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  .video-section h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
   }
 
-  .btn:hover {
-    background-color: #369f6e;
+  .video-frame {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
   }
 </style>

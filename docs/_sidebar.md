@@ -8,8 +8,8 @@
   * [Adding a test (Org Pay)](ordering.md)
   * [Adding a test (Insurance)](orderingins.md)
 
-* Home Collection
-  * [Booking a Home Collection Order](hc.md)
+* Results
+  * [Retrieving Results](results.md)
 
 <!-- * Configuration
   * [Configuration](configuration.md)

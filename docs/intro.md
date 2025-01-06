@@ -7,13 +7,13 @@
   <div class="video-section">
     <h3></h3>
     <iframe 
-      :src="videoSrc" 
-      title="YouTube video player" 
-      frameborder="0" 
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-      allowfullscreen
-      class="video-frame">
-    </iframe>
+  :src="videoSrc" 
+  title="YouTube video player" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen
+  class="video-frame">
+</iframe>
   </div>
 </div>
 
@@ -23,7 +23,7 @@
       return {
         title: 'Welcome to Genics Laboratory System! ',
         description: 'Explore this example with an embedded YouTube video.',
-        videoSrc: 'https://www.youtube.com/embed/rjTK6bTtG24?si=whd9MydJwWFB7-iZ', // Replace with your video URL
+        videoSrc: 'https://www.youtube.com/embed/rjTK6bTtG24?si=whd9MydJwWFB7-iZ?autoplay=1&controls=1&modestbranding=1&rel=0&iv_load_policy=3&fs=1', // Replace with your video URL
       };
     },
   };
